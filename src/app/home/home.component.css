@@ -1,0 +1,48 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.home {
+  background-image: url("/assets/infinityhealthlogo.jpg");
+  min-height: 90vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding-right: 10px;
+  display: absolute;
+}
+
+
+.mission {
+  text-align: center;
+}
+
+.mission h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.mission p{
+  font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+.benefits {
+  display: flex;
+  text-align: center;
+  background-color: rgba(131,220,227,0.5)
+}
+
+.benefits div {
+  padding: 10px;
+  margin: 50px;
+}
+
+.benefits i {
+  font-size: 75px;
+  color: white;
+}
+
+.benefits p {
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
